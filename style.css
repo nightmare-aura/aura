@@ -1,0 +1,9 @@
+/* Cambiar el color del menú */
+.menu {
+    background-color: #4A90E2; /* Cambia por el color deseado */
+}
+
+/* Cambiar el color del nombre del jugador */
+.player-name {
+    color: #FF5733; /* Cambia por el color deseado */
+}

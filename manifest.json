@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Vanis.io Custom Styles",
+    "version": "1.0",
+    "description": "Personaliza colores en Vanis.io",
+    "permissions": ["activeTab"],
+    "content_scripts": [
+      {
+        "matches": ["://vanis.io/"],
+        "css": ["styles.css"],
+        "js": ["script.js"]
+      }
+    ]
+  }
